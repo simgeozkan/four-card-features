@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Poppins:ital,wght@0,400;0,600;1,200&display=swap"
+    rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Four card feature section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      padding-top: 50px;
+    }
+
+    .container {
+      width: 100%;
+      height: 500px;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .div-middle {
+      background-color: #fff;
+      width: 320px;
+      height: 500px;
+
+
+
+    }
+
+    .div-middle-top {
+      background-color: #fff;
+
+      width: 320px;
+      height: 250px;
+      position: relative;
+      top: -10px;
+      padding: 1% 5%;
+      text-align: left;
+      border-radius: 5px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border-top: 5px solid red;
+
+
+
+    }
+
+    .div-middle-bottom {
+      background-color: #fff;
+      background-color: #fff;
+      width: 320px;
+      height: 250px;
+      padding: 1% 5%;
+      text-align: left;
+      position: relative;
+      top: 10px;
+      border-radius: 5px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border-top: 5px solid blue;
+
+
+
+    }
+
+    .box {
+
+      width: 320px;
+      height: 250px;
+      margin: 20px;
+      padding: 1%;
+      border-radius: 5px;
+      text-align: left;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border-top: 5px solid lightskyblue;
+
+
+    }
+
+    h1 {
+
+      line-height: 1rem;
+      font-family: 'Poppins', sans-serif;
+    }
+
+
+    p {
+      color: lightgray;
+
+      margin-bottom: 100px;
+      margin-top: 30px;
+      font-family: 'Poppins', sans-serif;
+
+    }
+
+    .container p {
+      color: black;
+      text-align: left;
+      color: lightgray;
+      margin-bottom: 10px;
+    }
+
+    .container h1 {
+      text-align: left;
+      line-height: 1rem;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .top-text {
+
+      text-align: center;
+    }
+
+    .img {
+
+      width: 50%;
+      height: 100%;
+    }
+
+    .icon {
+      text-align: right;
+
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .footer {
+      display: block;
+    }
+
+    @media screen and (max-width: 750px) {
+      .container {
+        flex-direction: column;
+        height: 1000px;
+        padding: 5%;
+
+
+      }
+
+      .top-text {
+
+        font-size: 12px;
+        line-height: 1.5rem;
+        text-align: left;
+      }
+
+      body {
+        padding: 15%;
+      }
+
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="top-text">
+    <h1 style="color:gray">Reliable, efficient delivery</h1>
+    <h1>Powered by Technology</h2>
+      <p>Our Artificial Intelligence powered tools use millions of project data points
+        to ensure <br> that your project is successful</p>
+  </div>
+
+  <div class="container">
+
+
+    <div class=" box">
+      <h1>supervisor</h1>
+      <p>Supervisor
+        Monitors activity to identify project roadblocks</p>
+      <div class="icon">
+        <img src="images/icon-supervisor.svg" alt="">
+      </div>
+    </div>
+
+
+    <div class="div-middle">
+
+      <div class="div-middle-top ">
+        <h1>Teambuilder</h1>
+        <p> Team Builder
+          Scans our talent network to create the optimal team for your project</p>
+
+        <div class="icon">
+          <img src="images/icon-team-builder.svg" alt="">
+        </div>
+      </div>
+
+      <div class="div-middle-bottom ">
+        <h1>Karma</h1>
+        <p>Karma
+          Regularly evaluates our talent to ensure quality</p>
+
+        <div class="icon">
+          <img src="images/icon-karma.svg" alt="">
+        </div>
+      </div>
+
+    </div>
+
+    <div class=" box">
+      <h1>Calculator</h1>
+      <p> Calculator
+        Uses data from past projects to provide better delivery estimates</p>
+
+      <div class="icon">
+        <img src="images/icon-calculator.svg" alt="">
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+  <div class="footer">
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
